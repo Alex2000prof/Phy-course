@@ -63,7 +63,6 @@ lst = Stringi()
 random_string = lst.generate()
 print(random_string)
 #4 
-
 from datetime import datetime
 
 def current_date():
@@ -88,8 +87,7 @@ def time_alive():
     min_alive = time_alive_min.total_seconds() / 60
     print(f"{min_alive:.0f} minutes")
 time_alive()
-        
-#
+
 from faker import Faker
 # print(fake.name())           
 # print(fake.address())        
